@@ -1,0 +1,105 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="NewFolder10\**" />
+    <Compile Remove="NewFolder1\**" />
+    <Compile Remove="NewFolder2\**" />
+    <Compile Remove="NewFolder3\**" />
+    <Compile Remove="NewFolder4\**" />
+    <Compile Remove="NewFolder5\**" />
+    <Compile Remove="NewFolder6\**" />
+    <Compile Remove="NewFolder7\**" />
+    <Compile Remove="NewFolder8\**" />
+    <Compile Remove="NewFolder9\**" />
+    <Compile Remove="Views\Home\movies\**" />
+    <Compile Remove="Views\Shared\Components\Genres\**" />
+    <Compile Remove="Views\Shared\Components\NewFolder1\**" />
+    <Compile Remove="Views\Shared\Components\NewFolder\**" />
+    <Compile Remove="Views\Shared\movie\**" />
+    <Content Remove="NewFolder10\**" />
+    <Content Remove="NewFolder1\**" />
+    <Content Remove="NewFolder2\**" />
+    <Content Remove="NewFolder3\**" />
+    <Content Remove="NewFolder4\**" />
+    <Content Remove="NewFolder5\**" />
+    <Content Remove="NewFolder6\**" />
+    <Content Remove="NewFolder7\**" />
+    <Content Remove="NewFolder8\**" />
+    <Content Remove="NewFolder9\**" />
+    <Content Remove="Views\Home\movies\**" />
+    <Content Remove="Views\Shared\Components\Genres\**" />
+    <Content Remove="Views\Shared\Components\NewFolder1\**" />
+    <Content Remove="Views\Shared\Components\NewFolder\**" />
+    <Content Remove="Views\Shared\movie\**" />
+    <EmbeddedResource Remove="NewFolder10\**" />
+    <EmbeddedResource Remove="NewFolder1\**" />
+    <EmbeddedResource Remove="NewFolder2\**" />
+    <EmbeddedResource Remove="NewFolder3\**" />
+    <EmbeddedResource Remove="NewFolder4\**" />
+    <EmbeddedResource Remove="NewFolder5\**" />
+    <EmbeddedResource Remove="NewFolder6\**" />
+    <EmbeddedResource Remove="NewFolder7\**" />
+    <EmbeddedResource Remove="NewFolder8\**" />
+    <EmbeddedResource Remove="NewFolder9\**" />
+    <EmbeddedResource Remove="Views\Home\movies\**" />
+    <EmbeddedResource Remove="Views\Shared\Components\Genres\**" />
+    <EmbeddedResource Remove="Views\Shared\Components\NewFolder1\**" />
+    <EmbeddedResource Remove="Views\Shared\Components\NewFolder\**" />
+    <EmbeddedResource Remove="Views\Shared\movie\**" />
+    <None Remove="NewFolder10\**" />
+    <None Remove="NewFolder1\**" />
+    <None Remove="NewFolder2\**" />
+    <None Remove="NewFolder3\**" />
+    <None Remove="NewFolder4\**" />
+    <None Remove="NewFolder5\**" />
+    <None Remove="NewFolder6\**" />
+    <None Remove="NewFolder7\**" />
+    <None Remove="NewFolder8\**" />
+    <None Remove="NewFolder9\**" />
+    <None Remove="Views\Home\movies\**" />
+    <None Remove="Views\Shared\Components\Genres\**" />
+    <None Remove="Views\Shared\Components\NewFolder1\**" />
+    <None Remove="Views\Shared\Components\NewFolder\**" />
+    <None Remove="Views\Shared\movie\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="controllers\moviescontroller.cs" />
+    <Compile Remove="Entity.cs" />
+    <Compile Remove="ViewComponents\GenreViewComponent.cs" />
+    <Compile Remove="ViewComponents\GernesViewComponent.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Index.cshtml" />
+    <Content Remove="wwwroot\img\1.jpg" />
+    <Content Remove="wwwroot\img\2.jpg" />
+    <Content Remove="wwwroot\img\3.jpg" />
+    <Content Remove="wwwroot\img\_g5v5vmuk0CKjV6eooJUAg.webp" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Views\Shared\_message.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Views\Shared\_message.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.0-preview.7.24405.3">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.0-preview.7.24405.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.0-preview.7.24405.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
